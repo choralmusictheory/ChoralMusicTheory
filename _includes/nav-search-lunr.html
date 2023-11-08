@@ -9,11 +9,11 @@
         // document.getElementById("site-search").innerText = hold;
         // document.getElementById('req-box').checked
         t = document.getElementById("bubble-site-search").value;
-        if (document.getElementById('req-box').checked) {
-            document.getElementById("bubble-site-search").value = t + " +" + query;
-        } else {
-            document.getElementById("bubble-site-search").value = t + " " + query;
-        }
+        // if (document.getElementById('req-box').checked) {
+        document.getElementById("bubble-site-search").value = t + " +" + query;
+        // } else {
+        //     document.getElementById("bubble-site-search").value = t + " " + query;
+        // }
         // window.open("{{ '/search/index.html' | relative_url }}?q=" + encodeURIComponent(query), "_self" );
     }
 </script>
